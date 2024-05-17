@@ -330,7 +330,7 @@ class SimulatedAnnealingKnapsack:
             sol_file_name = f"{self.file_name}_LS1_{cutoff}.sol"
 
         # Ensure the directory exists where the files will be saved
-        directory = "./"
+        directory = "SA_RESULTS/solution_files"
         if not os.path.exists(directory):
             os.makedirs(directory)
 
@@ -368,7 +368,7 @@ class SimulatedAnnealingKnapsack:
             if self.verbose: print('Random seed set to: ', seed)
         
         # Set up trace file directory
-        trace_file_dir = f"./"
+        trace_file_dir = "SA_RESULTS/trace_files"
         os.makedirs(trace_file_dir, exist_ok=True)
         self.trace_file_name = f"{trace_file_dir}/{self.file_name}_{'LS1'}_{time_cutoff}_{seed}.trace"
         
