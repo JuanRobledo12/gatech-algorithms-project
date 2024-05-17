@@ -1,4 +1,4 @@
-# gatech-algorithms-project
+# Simulated Annealing Algorithm to Solve the Knapsack Problem
 
 In this repository, I present my contribution to the final project for CSE6140 Computer Science and Engineering Algorithms course at Georgia Tech. The project consists of implementing a series of algorithms to cope with NP-Complete problems and learning how to evaluate their performance empirically. My contribution to this project was the simulated annealing algorithm, which is a stochastic local search algorithm that can be used to achieve good results when dealing with this type of problems. For more, please check the final report [here](Documents/final_report.pdf).
 
